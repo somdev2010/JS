@@ -191,6 +191,7 @@ function fun2(){
    console.log(output)
 }
 fun2();
+//
 var outerwear="T-Shirt"
 function myoutfit(){
     var outerwear="sweater"
