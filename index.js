@@ -8,7 +8,7 @@ console.log(ourName)
 console.log(pi)
 var a;
 console.log(a)
-var b=10; 
+var b=5; 
 a=7; 
 b=a; 
 console.log(a)
