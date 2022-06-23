@@ -191,7 +191,7 @@ function fun2(){
    console.log(output)
 }
 fun2();
-//
+//1st gour of course completed
 var outerwear="T-Shirt"
 function myoutfit(){
     var outerwear="sweater"
