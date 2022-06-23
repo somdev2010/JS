@@ -8,7 +8,7 @@ console.log(ourName)
 console.log(pi)
 var a;
 console.log(a)
-var b=2; 
+var b=10; 
 a=7; 
 b=a; 
 console.log(a)
@@ -17,7 +17,6 @@ var x = 5;
 var y = 10;
 var z = 26
 var az = "I am a "; 
-//Do not change code below this line
 x+=12
 y+=5
 z-=7
