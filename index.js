@@ -15,7 +15,7 @@ console.log(cbx)
 //Initialize these three variables
 var x = 5;
 var y = 10;
-var z = 26
+var z = 26; 
 var az = "I am a "; 
 x+=12
 y+=5
