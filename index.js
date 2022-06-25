@@ -10,8 +10,8 @@ var a;
 console.log(a)
 var b=5; 
 a=7; 
-b=a; 
-console.log(a)
+cbx=a-b
+console.log(cbx)
 //Initialize these three variables
 var x = 5;
 var y = 10;
@@ -95,6 +95,7 @@ var lastname="RiddhimanCBS"
 lastnamelength=lastname.length
 console.log(lastnamelength)
 lastname="SoumalyaSir"
+var firstLetterofLastname;
 firstLetterofLastname=lastname[0]
 console.log(firstLetterofLastname)
 var xcs="Jello World"
@@ -191,10 +192,24 @@ function fun2(){
 }
 fun2();
 //1st gour of course completed
-var outerwear="T-Shirt"
+var outerwear1="T-Shirt"
 function myoutfit(){
     var outerwear="sweater"
     return outerwear;
 }
 console.log(myoutfit())
-console.log(outerwear)
+console.log(outerwear1) 
+function minusSeven(num){
+    return num-7;
+}
+    console.log(minusSeven(10))
+var sum=0; 
+function addThree(){
+    sum=sum+3
+    console.log(sum)
+}
+function change(num1){
+    return (num1+6)/4
+}
+var changed=change(10)
+console.log(changed)
