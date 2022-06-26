@@ -215,8 +215,22 @@ var changed=change(10)
 console.log(changed)
 function nextLine(arr,item){
     arr.push(item)
-return item;}
+    arr.shift(item)
+return arr.shift;}
 var testArr = [1,2,3,4,5];
 console.log("Before:"+JSON.stringify(testArr));
-console.log(nextInLine(testArr,6));
+console.log((testArr,6));
 console.log("After:"+JSON.stringify(testArr));
+function welcometoBooleans(){
+    return false; 
+}
+function ourTrueOrFalse(isItTrue){
+    if (isItTrue){
+        return"Yes its true";
+    }
+    return"No its false";
+}
+console.log()
+console.log(ourTrueOrFalse(false));
+
+
