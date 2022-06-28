@@ -232,5 +232,28 @@ function ourTrueOrFalse(isItTrue){
 }
 console.log()
 console.log(ourTrueOrFalse(false));
+function testEqual(val){
+    if (val==12){
+        return "Equal"
+    }
+    return "Not Equal"
+}
+console.log(testEqual(10))
+console.log(testEqual(12))
+function testStrict(val2){
+    if (val2===7){
+        return "Equal"; 
+    }
+    return "Not Equal"}
+console.log(testStrict(7))
+console.log(testStrict("7"))
+function compareEqualtiy(a,b){
+    if (a==b){
+        return "Equal"
+    }
+    return "Not Equal"
+}
+console.log(compareEqualtiy(10,"10"))
+
 
 
