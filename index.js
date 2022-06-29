@@ -268,6 +268,29 @@ function notEqualStrictTest(val4){
     return "Equal"    
 }
 console.log(notEqualStrictTest(17))
+function Greaterthan100(val5){
+    if (val5>=100){
+        return "Over 100"
+    }
+        if (val5>=10){
+            return "Over 10"
+        }
+    return "10 or under"
+}
+console.log(Greaterthan100(25))
+console.log(Greaterthan100(5))
+console.log(Greaterthan100(105))
+function Greaterthan100(val6){
+    if (val6<=55){
+        return "Less than 55"
+    }
+    return "25 or under"
+}
+console.log(Greaterthan100(25))
+console.log(Greaterthan100(5))
+console.log(Greaterthan100(65))
+
+
 
 
 
