@@ -289,7 +289,22 @@ function Greaterthan100(val6){
 console.log(Greaterthan100(25))
 console.log(Greaterthan100(5))
 console.log(Greaterthan100(65))
-
+function testLogicalOperatorsAnd(nval){
+    if (nval<=50 && nval>=25){
+            return "Yes";
+        }
+        return "No";
+    }
+console.log(testLogicalOperatorsAnd(30))
+console.log(testLogicalOperatorsAnd(5))
+function testLogicalOperatorsOr(n1val){
+    if (n1val<10 || n1val>20){
+            return "Outside";
+        }
+        return "Inside";
+    }
+console.log(testLogicalOperatorsOr(30))
+console.log(testLogicalOperatorsOr(18))
 
 
 
