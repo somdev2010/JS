@@ -254,6 +254,20 @@ function compareEqualtiy(a,b){
     return "Not Equal"
 }
 console.log(compareEqualtiy(10,"10"))
+function notEqualTest(val3){
+    if (val3!=99){
+        return "Not Equal"
+    }
+    return "Equal"
+}
+console.log(notEqualTest(10));
+function notEqualStrictTest(val4){
+    if (val4!==17){
+        return "Not Equal"
+    }
+    return "Equal"    
+}
+console.log(notEqualStrictTest(17))
 
 
 
