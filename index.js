@@ -7,6 +7,7 @@ console.log(myName)
 console.log(ourName)
 console.log(pi)
 var a;
+//Declaring a, not assigning the value to it 
 console.log(a)
 var b=5; 
 a=7; 
