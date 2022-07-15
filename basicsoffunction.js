@@ -40,3 +40,7 @@ function change(num1){
 }
 var changed=change(10)
 console.log(changed)
+function nextLine(arr,item){
+    arr.push(item)
+    arr.shift(item)
+return arr.shift;}

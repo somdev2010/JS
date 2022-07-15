@@ -1,30 +1,3 @@
-function fun3();
-//1st hour of course completed
-var outerwear1="T-Shirt"
-function myoutfit(){
-    var outerwear="sweater"
-    return outerwear;
-}
-console.log(myoutfit())
-console.log(outerwear1) 
-function minusSeven(num){
-    return num-7;
-}
-    console.log(minusSeven(10))
-var sum=0; 
-function addThree(){
-    sum=sum+3
-    console.log(sum)
-}
-function change(num1){
-    return (num1+6)/4
-}
-var changed=change(10)
-console.log(changed)
-function nextLine(arr,item){
-    arr.push(item)
-    arr.shift(item)
-return arr.shift;}
 var testArr = [1,2,3,4,5];
 console.log("Before:"+JSON.stringify(testArr));
 console.log((testArr,6));
