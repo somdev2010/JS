@@ -306,7 +306,29 @@ function testLogicalOperatorsOr(n1val){
     }
 console.log(testLogicalOperatorsOr(30))
 console.log(testLogicalOperatorsOr(18))
-
+function testElse(xnum)
+{
+    var result="";
+if (xnum>5)
+{
+    result="Bigger than 5"
+}
+else
+{
+    result="5 or smaller";
+}
+return result;
+}
+console.log(testy(4));
+function testElseIf(ynum){
+    if(ynum>10){
+        return "Greater than 10";
+    }else if (znum<5){
+        return "Smaller than 5"
+    }
+    return "Between 5 and 10"
+}
+console.log(testElseIf)
 
 
 
