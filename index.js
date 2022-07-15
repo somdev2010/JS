@@ -323,12 +323,20 @@ console.log(testy(4));
 function testElseIf(ynum){
     if(ynum>10){
         return "Greater than 10";
-    }else if (znum<5){
+    }else if (ynum<5){
         return "Smaller than 5"
+    }else{
+        return "Between 5 and 10";
     }
-    return "Between 5 and 10"
+
 }
-console.log(testElseIf)
-
-
+const readline = require('readline').createInterface({
+    input: process.stdin,
+    output: process.stdout,
+  });
+  readline.question(`Who are you`, age => {
+    console.log(`Hi ${age}!`);
+    readline.close();
+  });
+  
 
