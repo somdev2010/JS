@@ -1,17 +1,3 @@
-var testArr = [1,2,3,4,5];
-console.log("Before:"+JSON.stringify(testArr));
-console.log((testArr,6));
-console.log("After:"+JSON.stringify(testArr));
-function welcometoBooleans(){
-    return false; 
-}
-function ourTrueOrFalse(isItTrue){
-    if (isItTrue){
-        return"Yes its true";
-    }
-    return"No its false";
-}
-console.log()
 console.log(ourTrueOrFalse(false));
 function testEqual(val){
     if (val==12){
@@ -108,15 +94,4 @@ function testElseIf(ynum){
     }else{
         return "Between 5 and 10";
     }
-
 }
-const readline = require('readline').createInterface({
-    input: process.stdin,
-    output: process.stdout,
-  });
-  readline.question(`Who are you`, age => {
-    console.log(`Hi ${age}!`);
-    readline.close();
-  });
-  
-

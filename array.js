@@ -36,3 +36,7 @@ darray.unshift(["Paul",35])
 console.log(darray) 
 var myList = [["cereal",3],["milk",2],["bananas",3],["juice",2],["eggs",6]]
 console.log(myList)
+var testArr = [1,2,3,4,5];
+console.log("Before:"+JSON.stringify(testArr));
+console.log((testArr,6));
+console.log("After:"+JSON.stringify(testArr));
