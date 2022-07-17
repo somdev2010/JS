@@ -115,4 +115,22 @@ function logicalorder(znum){
     }
 }
 console.log(logicalorder(3))
+function testSizeChainIfElse(xval){
+    if (xval<5){
+        return "Tiny"
+    }else if(xval<10){
+        return "Small"
+    }else if(xval<15){
+        return "Medium"
+    }else if(xval<20){
+        return"Large"
+    }else{
+        return "Huge"
+    }
+}
+console.log(testSizeChainIfElse(3))
+console.log(testSizeChainIfElse(7))
+console.log(testSizeChainIfElse(11))
+console.log(testSizeChainIfElse(17))
+console.log(testSizeChainIfElse(22))
 
