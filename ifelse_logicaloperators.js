@@ -1,4 +1,3 @@
-console.log(ourTrueOrFalse(false));
 function testEqual(val){
     if (val==12){
         return "Equal"
@@ -85,8 +84,8 @@ else
 }
 return result;
 }
-console.log(testy(4));
-function testElseIf(ynum){
+console.log(testElse(4));
+function testElseIf2(ynum){
     if(ynum>10){
         return "Greater than 10";
     }else if (ynum<5){
@@ -95,3 +94,25 @@ function testElseIf(ynum){
         return "Between 5 and 10";
     }
 }
+console.log(testElseIf2(7))
+function Nologicalorder(znum){
+    if(znum<10){
+        return"Lesser than 10"
+    }else if(znum<5){
+        return"Lesser than 5"
+    }else{
+        return "Greater than or equal to 10";
+    }
+}
+console.log(Nologicalorder(3))
+function logicalorder(znum){
+    if(znum<5){
+        return"Lesser than 5"
+    }else if(znum<10){
+        return"Lesser than 10"
+    }else{
+        return "Greater than or equal to 10";
+    }
+}
+console.log(logicalorder(3))
+
