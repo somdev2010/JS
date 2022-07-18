@@ -66,3 +66,25 @@ function MultipleOptionsinSwitch(val3){
 console.log(MultipleOptionsinSwitch(8))
 console.log(MultipleOptionsinSwitch(3))
 console.log(MultipleOptionsinSwitch(6))
+function ReplacingIfElsebySwitch(val4){
+    var finalanswer=""
+    switch(val4){
+        case "Bob":
+            finalanswer="Marley"
+            break;
+        case 42:
+            finalanswer="The Answer"  
+            break;
+        case 1:
+            finalanswer="There is no #1"
+            break;
+        case 99:
+            finalanswer="Missed me by this much!"
+            break;
+        case 7:
+            finalanswer="Ate Nine"
+            break;
+}
+return finalanswer
+}
+console.log(ReplacingIfElsebySwitch("Bob"))
