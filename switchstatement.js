@@ -49,14 +49,17 @@ function MultipleOptionsinSwitch(val3){
     case 2:
     case 3:
         solution="Top Order"
+        break
     case 4:
     case 5:
     case 6:
         solution="Middle Order"
+        break
     case 7:
     case 8:
     case 9:
         solution="Lower Order"
+        break
     }
     return solution;
 }
