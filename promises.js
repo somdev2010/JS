@@ -1,16 +1,24 @@
-var promise= new Promise(function(resolve,reject){
-    const x="Somdev Mitra"
-    const y="Somdev Mitra"
-    if(x===y){
-    resolve()
+let p = new Promise((resolve, reject)=>{
+let a=1+1
+if (a==2){
+    resolve('Success')
 }else{
-    reject()
+    reject('Failed')
 }
 })
-promise. 
-then (function(){
-    console.log("Succes, you are Somdev")
-}).
-catch(function(){
-    console.log("Some error occured")
+
+
+p.then((message)=>{
+    console.log('This is in the then '+message)
+}).catch((message)=>{
+    console.log('This is in the catch '+message)
 })
+//Callbacks
+const userLeft= false
+const userwatchingCatMeme= false
+
+function watchtutorialcallback(callback,errorCallback){
+    if(userLeft){
+        errorCallback({})
+    }
+}
